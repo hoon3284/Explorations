@@ -1,0 +1,24 @@
+
+UI
+Main.storyboard : The interface of the app, including the layout of the screens.
+LaunchScreen.storyboard : The screen displayed when the app is first launched (an empty white screen).
+ThinkingCell.swift : A specialized cell for showing the app is thinking.
+ConversationCell.swift : A specialized cell for showing a message in the conversation.
+AskCell.swift : A specialized cell for allowing the user to type in a question.
+
+
+Assets.xcassets : The asset catalog holding all of the images used in the app.
+
+
+Controllers
+ConversationViewController.swift : The main view controller for the app. This class is responsible for the list view and handling updates when the user asks questions. It's the most complicated file in the project, and contains a lot of code you haven't learned about yet.
+
+
+Model : Details of this group are given below.
+
+
+Support files
+AppDelegate.swift : Part of the standard app template, normally used to handle events such as the app being launched.
+Info.plist : Part of the standard app template, holding information about the app itself.
+
+
